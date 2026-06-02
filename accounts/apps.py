@@ -19,7 +19,7 @@ class AccountsConfig(AppConfig):
             if not User.objects.filter(username="admin").exists():
                 User.objects.create_superuser(
                     username="dm",
-                    email="dadima887@gmail.com",
+                    email="malynskyidmytro@gmail.com",
                     password="55",
                 )
         except Exception:
